@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Todolist</title>
+    <link rel="stylesheet" href="To-do-list-style.css" />
+    <script src="To-do-list.js" type="module" defer></script>
+  </head>
+  <body>
+    <form class="my-form">
+      <p class="error"></p>
+      <input type="text" class="todo-text" placeholder="Enter your todo..." />
+      <button type="submit">Submit</button>
+    </form>
+
+    <div style="text-align: center; margin-top: 20px">
+      sort:
+      <button class="sort-name">Name</button>
+      <button class="sort-time">Time</button>
+      search:
+      <input type="text" class="todo-search" placeholder="Search todolist" />
+    </div>
+
+    <div class="todo-pending"></div>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+.my-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 4 6 rgba(0, 0, 0, 0.1)
+}
+
+.error {
+    color: red;
+    font-weight: bolder;
+    min-height: 1rem;
+    margin-bottom: 10px;
+}
+
+.todo-text {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #f4f4f4;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.todo-pending p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 4 6 rgba(0, 0, 0, 0.1);
+}
+
+.todo-pending span {
+    margin-left: 10px;
+    color: rgb(50, 217, 50);
+    font-size: 0.9em;
+}
+
+.todo-pending button {
+    margin-left: 10px;
+}
+
